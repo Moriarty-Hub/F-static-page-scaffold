@@ -18,3 +18,32 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+main {
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: #e9ebee;
+}
+
+.option-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option {
+  background: white;
+  text-align: center;
+  margin: 40px 10px;
+  width: 540px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+figcaption {
+  color: darkgrey;
+  margin-bottom: 100px;
+}
+
+button {
+  padding: 3px 10px;
+}
