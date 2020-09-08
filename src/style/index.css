@@ -55,15 +55,15 @@ main {
 
 .option-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .option {
   background: white;
   text-align: center;
-  margin: 40px auto;
-  width: 48%;
+  margin-top: 40px;
+  width: 49%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
