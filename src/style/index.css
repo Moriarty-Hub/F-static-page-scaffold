@@ -9,8 +9,37 @@ body {
   font-size: 16px;
 }
 
-* {
-  box-sizing: border-box;
+header {
+  background: #3b5998;
+  padding-left: 12%;
+  padding-right: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+}
+
+h1 {
+  color: white;
+}
+
+.sign-up-button {
+  border: 0;
+  font-size: 10px;
+  background: #42b72a;
+  color: white;
+  height: 25px;
+  width: 50px;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.log-in {
+  color: white;
 }
 
 ul {
@@ -20,30 +49,30 @@ ul {
 }
 
 main {
-  padding-left: 12%;
-  padding-right: 12%;
+  padding: 5px 12% 30px;
   background-color: #e9ebee;
 }
 
 .option-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .option {
   background: white;
   text-align: center;
-  margin: 40px 10px;
-  width: 540px;
+  margin: 40px auto;
+  width: 48%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 figcaption {
   color: darkgrey;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
-button {
+.start-button {
   padding: 3px 10px;
 }
